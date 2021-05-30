@@ -56,8 +56,8 @@ body {
 }
 
 .gameTitle {
-	padding-top: 60px !important;
-	padding-bottom: 60px !important;
+	padding-top: 120px !important;
+	padding-bottom: 30px !important;
 	display: block;
 	margin: 0 auto;
 }
@@ -75,4 +75,45 @@ body {
     font-family: '8-bit_operatorbold';
     text-align: center;
     color: gray;
+}
+
+.question {
+    padding-top: 1em;
+    font-family: '8-bit_operatorbold';
+    color: white;
+}
+
+.question::before {
+    content: "Q: ";
+    font-family: '8-bit_operatorbold';
+    color: white;
+}
+
+.answer {
+    padding-bottom: 1em;
+    font-family: '8-bit_operatorregular';
+    font-style: normal;
+    color: white;
+}
+
+.answer-list {
+    padding-bottom: 1em;
+    font-family: '8-bit_operatorregular';
+    font-style: normal;
+    color: white;
+}
+
+
+.answer::before {
+    content: "A: ";
+    font-family: '8-bit_operatorbold';
+    color: white;
+}
+
+h1 {
+    font-family: '8-bit_operatorbold';
+    text-align: center;
+    padding-bottom: 1em;
+    color: white;
+    word-wrap: break-word;
 }
