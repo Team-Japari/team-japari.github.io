@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="./src/favicon.png">
+        <link href="./src/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <title>TJ!JAPARITALE</title>
+    </head>
+    <body>
+        <script>
+            function play() {
+                var audio = document.getElementById("audio");
+                audio.play();
+            }
+        </script>
+        
+        <nav id="navbar" class="navbar navbar-expand-md bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a href="./index.html" style="padding-right: 3.5em"><img src="./src/gameTitle.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar"">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./credits.html">Credits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="play()">???</a>
+                            <audio id="audio" src="./src/sugoi.ogg"></audio>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="container content">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img class="img-fluid gameTitle" src="./src/gameTitleBig.png" alt="TJ!JAPARITALE">
+                    </div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <p class="about">
+                            TJ!Japaritale is a <b>brand new</b> fan-game of Toby Fox's Undertale made by <b>Team Japari</b> that opens a new world of anthropomorphic species called Friends.
+                            It is heavily based on the anime, <b>Kemono Friends</b>, so therefore it'd be recommended to watch it to avoid any upcoming spoilers.
+                        </p>
+                    </div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6 embed-responsive embed-responsive-16by9 videoplayer">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/EdWaKNb7WpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-sm-12">
+                        <h1></h1>
+                        <p class="about" style="padding-top: 3em;">
+                            Consider following us on these places below!
+                        </p>
+                        <h3></h3>
+                        <a class="link" href="https://gamejolt.com/games/team-japari-japaritale/368818">Gamejolt</a>
+                        <a class="link" href="https://github.com/Team-Japari">GitHub</a>
+                        <a class="link" href="https://discord.gg/RmzNNXd">Discord</a>
+                    </div>
+                </div>
+                <footer>
+                    <p class="footer"  style="padding-top: 3em;">
+                        UNDERTALE and DELTARUNE by Toby Fox 2015-2021
+                    </p>
+                    <p class="footer">
+                        TJ!JAPARITALE by Team Japari 2021-2021
+                    </p>
+                    <p class="footer" style="padding-bottom: 3em;">
+                        (We are not affliated with Toby Fox!)
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
