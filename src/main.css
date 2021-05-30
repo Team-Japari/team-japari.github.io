@@ -71,7 +71,8 @@ body {
 }
 
 .footer {
-    font-size: large;
+    padding-bottom: 3em;
+    font-size: normal;
     font-family: '8-bit_operatorbold';
     text-align: center;
     color: gray;
