@@ -37,13 +37,22 @@ body {
     color: yellow;
 }
 
+.socialLinks {
+
+}
+
 .link:hover {
     text-decoration: underline;
     color: yellow;
 }
+
 .navbar {
     background-color: #292929;
     min-height: 3.5em;
+}
+
+footer {
+    background-color: #292929;
 }
 
 .dropdown-item:active {
