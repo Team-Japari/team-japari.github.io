@@ -51,10 +51,6 @@ body {
     min-height: 3.5em;
 }
 
-footer {
-    background-color: #292929;
-}
-
 .dropdown-item:active {
     background-color: #a8a8a8;
 }
